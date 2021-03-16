@@ -138,4 +138,9 @@ file_to_save = os.path.join("analysis", "election_results.txt")
         # 3: Extract the county name from each row.
         county_name = row[1]
 ```
-In order to make sure there is no mistakes with the script and that no vote goes uncounted, we could add a few lines of codes to return the sum of votes from each candidate and the sum of votes in each county comparing them to the total votes which was obtain from a row count minus header. The three totals should be equal.
+In order to make sure there is no mistakes with the script and that no vote goes uncounted, we could add a few lines of codes to return the sum of votes from each candidate and the sum of votes in each county comparing them to the total votes which was obtain from a row count minus header. The three totals should be equal if there are no mistakes in the script and would look like this:
+```
+    values1 = candidate_votes.values()
+    total1 = sum(values1)    
+    print(f'The sum of each candidate total votes is {total1}')
+```
