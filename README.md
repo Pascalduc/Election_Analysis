@@ -140,7 +140,7 @@ file_to_save = os.path.join("analysis", "election_results.txt")
 ```
 In order to make sure there is no mistakes with the script and that no vote goes uncounted, we could add a few lines of codes to return the sum of votes from each candidate and the sum of votes in each county comparing them to the total votes which was obtain from a row count minus header. The three totals should be equal if there are no mistakes in the script and would look like this:
 ```
-   # Quality check - sum of the 3 candidates total votes
+   # Quality check - sum of all candidates total votes
     values1 = candidate_votes.values()
     total1 = sum(values1)    
     print(f'The sum of each candidate total votes is {total1}')
