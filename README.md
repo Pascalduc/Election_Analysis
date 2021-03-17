@@ -84,7 +84,7 @@ with open(file_to_load) as election_data:
         f"County Votes:\n")
     print(election_results, end="")
 ```
-Then printed to the results file:
+Then printed to the .txt results file:
 
 ```
 Election Results
