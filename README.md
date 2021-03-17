@@ -126,7 +126,7 @@ Winning Percentage: 73.8%
 ```
 
 ## Election-Audit Summary
-This script could be very useful for the election commission since it can be quickly modified to read other data files. All that is needed is to replace the file name with the new one. If the columns are not in the same order, we can easily modify the row[index]. 
+This script could be very useful for the election commission since it can be quickly modified to read other data files. If the commision is interested, we whould be happy to provide auditing service for all of US elections. All that would be needed is to replace the file name with the new one. If the columns are not in the same order, we can easily modify the row[index] code or move the columns around in the data file. 
 ```
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
@@ -140,7 +140,7 @@ file_to_save = os.path.join("analysis", "election_results.txt")
         # 3: Extract the county name from each row.
         county_name = row[1]
 ```
-In order to make sure there is no mistakes with the script and that no vote goes uncounted, we could add a few lines of codes to return the sum of votes from each candidate and the sum of votes in each county comparing them to the total votes which was obtain from a row count minus header. The three totals should be equal if there are no mistakes in the script and would look like this:
+In order to make sure there is no mistakes with the script and that no vote goes uncounted, we could add a few lines of codes to return the sum of votes from each candidate and the sum of votes in each county to compare them to the total votes which was obtain from a row count minus header. The three totals should be equal and the script and would look like this:
 ```
    # Quality check - sum of all candidates total votes
     values1 = candidate_votes.values()
