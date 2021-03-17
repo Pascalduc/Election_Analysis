@@ -100,7 +100,9 @@ Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 ```
 •	With an `if` statement we determined the county with the largest turnout was:
+
 `Largest County Turnout: Denver`
+
 •	There were three candidate with the following vote counts:
 ```
 Charles Casper Stockham: 23.0% (85,213)
