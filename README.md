@@ -99,7 +99,7 @@ Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 ```
-•	With an `if` statement we determined the county with the largest turnout was:
+•	With an `if` statement we determined the county with the largest turnout:
 
 `Largest County Turnout: Denver`
 
