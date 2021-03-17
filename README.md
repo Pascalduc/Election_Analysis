@@ -109,7 +109,7 @@ Charles Casper Stockham: 23.0% (85,213)
 Diana DeGette: 73.8% (272,892)
 Raymon Anthony Doane: 3.1% (11,606)
 ```
-•	And the winner of the election was determined also with an if` statement:
+•	And the winner of the election was determined also with an `if` statement:
 ```
         # Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
