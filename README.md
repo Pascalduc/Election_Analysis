@@ -15,7 +15,7 @@ The goal is for the script to perform the following task:
 - Software: Python 3.7.6, Visual Studio Code 1.54.2
 
 ## Election-Audit Results
-For this election analysis we wrote a Python script to quickly scan through hundreds of thousands of ballots while collecting information about the county where it was cast and the candidate who was picked. We first imported a couple of modules to simplify our code and initialized the data file, the analysis writable file and all the variables.
+For this election analysis we wrote a Python script to quickly iterate through hundreds of thousands of ballots while collecting information about the county where it was cast and the candidate who was picked. We first imported a couple of modules to simplify our code and initialized the data file, the analysis writable file and all the variables.
 ```
 import csv
 import os
