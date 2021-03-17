@@ -39,7 +39,7 @@ winning_percentage = 0
 top_county = ""
 top_county_votes = 0
 ```
-We initialized `candidate_options` and `county_options` as an empty list while `candidate_votes` and `county_votes` were set as empty dictionaries in order to match the `key` and the `value`. The counts were set to zero then we opened the data file and ran through the rows with a `for loop` and membership operator to extract the vote for each candidate. 
+We initialized `candidate_options` and `county_options` as an empty list while `candidate_votes` and `county_votes` were set as empty dictionaries in order to match the `key` and the `value`. The initial counts were set to zero then we opened the data file and ran through the rows with a `for loop` and membership operator to extract the vote for each candidate. 
 ```
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
